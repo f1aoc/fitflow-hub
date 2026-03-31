@@ -13,7 +13,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+        body: ['"Inter"', 'system-ui', 'sans-serif'],
+      },
       colors: {
+        "hero-dark": "hsl(var(--hero-dark))",
+        "hero-dark-foreground": "hsl(var(--hero-dark-foreground))",
+        highlight: "hsl(var(--highlight))",
+        "highlight-glow": "hsl(var(--highlight-glow))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
